@@ -28,3 +28,19 @@ composer install
 4. Copy the contents of **.env.example** and create a new file called **.env** in the root folder
 
 5. Edit the **API_KEY** on line 12!
+
+## Starting development environment
+
+1. Open terminal and type
+
+```bash
+php artisan serve
+```
+
+2. Open another terminal and type
+
+```bash
+npm run watch
+```
+
+3. Now visit the application at **localhost:8000** or **127.0.0.1:8000**
