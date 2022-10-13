@@ -1,0 +1,31 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+
+    /* Global font */
+    --font: "Roboto", "Segoe UI", "sans-serif";
+
+    /* Color vars */
+    --white: #fff;
+    --black: #000;
+
+    --light-grey: #F0F0F0;
+    --red: #ED4949;
+    --green: #257528;
+    --blue: #3376da;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font);
+    background-color: var(--light-grey);
+}
+
+.global-wrapper {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 15px;
+}
